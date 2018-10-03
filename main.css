@@ -16,7 +16,7 @@ main {
 nav {
     display: flex;
     flex-direction: column;
-    width:100px;
+    width:120px;
     border: 2px solid black;
 }
 
@@ -74,6 +74,14 @@ h5 {
 
 .styleTan {
     background-color: tan;
+}
+
+.styleWhite {
+    background-color: white;
+}
+
+.colorWheel {
+    background-color: white;
 }
 
 .selectors {
