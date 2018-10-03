@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+main {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width:100px;
+    border: 2px solid black;
+}
+
+.pixelGrid {
+    border: 1px solid black;
+}
+
+.pixel {
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border: 1px solid gray;
+}
+
+.styleBlack {
+    background-color: black;
+}
+
+.styleBlue {
+    background-color: blue;
+}
+
+.styleRed {
+    background-color: red;
+}
