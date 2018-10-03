@@ -13,6 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     return artfield;
 }
+
+const renderField = createGrid(3101);
+mainBody.innerHTML = renderField.join('\n');
+//Color Selection
+const selectors = document.querySelectorAll(".selectors");
+const selected = document.querySelector(".selected");
+
 const change = function (event) {
     if (!event.target.classList.contains("styleBlack")) {
         event.target.classList.add('styleBlack');
@@ -21,11 +28,9 @@ const change = function (event) {
       
     }
 }
-const renderField = createGrid(3101);
-mainBody.innerHTML = renderField.join('\n');
-//Color Selection
-const blackCell = document.querySelector(".styleBlack")
-
+/*const changeColor = function(event){
+    if (event.target.classList !== )
+}*/
 //Cell Interactivity
 const cells = document.querySelectorAll(".pixel");
 cells.forEach(cell => cell.addEventListener("click", change));

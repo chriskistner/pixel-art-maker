@@ -20,6 +20,11 @@ nav {
     border: 2px solid black;
 }
 
+h5 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
 .pixelGrid {
     border: 1px solid black;
 }
@@ -41,4 +46,48 @@ nav {
 
 .styleRed {
     background-color: red;
+}
+
+.styleGreen {
+    background-color: green;
+}
+
+.stylePurple {
+    background-color: purple;
+}
+
+.styleYellow {
+    background-color: yellow;
+}
+
+.styleOrange {
+    background-color: orange;
+}
+
+.styleTurquoise {
+    background-color: turquoise;
+}
+
+.styleGray {
+    background-color: gray;
+}
+
+.styleTan {
+    background-color: tan;
+}
+
+.selectors {
+    height: 25px;
+    padding: 3px;
+}
+
+.selectors p {
+    margin-top: 3px;
+    margin-bottom:3px;
+}
+
+.selected {
+    border: 1px solid gray;
+    margin: 3px;
+    height: 25px;
 }
