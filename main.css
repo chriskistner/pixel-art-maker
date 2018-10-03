@@ -3,6 +3,7 @@ body {
     flex-direction: row;
     margin: auto;
     justify-content: flex-start;
+    margin: 25px;
 }
 
 main {
@@ -44,12 +45,20 @@ h5 {
     background-color: blue;
 }
 
+.styleTeal {
+    background-color:teal;
+}
+
 .styleRed {
     background-color: red;
 }
 
 .styleGreen {
     background-color: green;
+}
+
+.styleGreenL {
+    background-color: lawngreen;
 }
 
 .stylePurple {
@@ -80,7 +89,7 @@ h5 {
     background-color: white;
 }
 
-.colorWheel {
+.wheelSelect {
     background-color: white;
 }
 
