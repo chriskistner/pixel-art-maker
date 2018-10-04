@@ -21,8 +21,6 @@ const selectors = document.querySelectorAll(".selectors");
 const selected = document.querySelector(".selected");
 const button = document.querySelector('button');
 const cells = document.querySelectorAll(".pixel");
-const wheel = document.getElementById('colorWheel')
-const colorWheel = document.querySelector(".wheelSelect")
 let activeColor = '';
 let mouseDown = 'false';
 
@@ -70,8 +68,7 @@ const onMouseUp = function () {
 cells.forEach(cell => cell.addEventListener("mousedown", onMouseDown));
 cells.forEach(cell => cell.addEventListener("mouseover", change));
 cells.forEach(cell => cell.addEventListener("mouseup", onMouseUp));
-selectors.forEach(color => color.addEventListener("click", update))
-wheel.addEventListener('submit', wheelUpdate);
+selectors.forEach(color => color.addEventListener("click", update));
 button.addEventListener("click", clear);
 });
 
